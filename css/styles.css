@@ -1,0 +1,173 @@
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    background-color: #FFFFFF;
+}
+
+/*header*/
+
+header {
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+ul {
+    list-style: none;
+}
+
+:root {
+    --colorblue: #2196F3;
+    --colorblack: #212121;
+
+}
+
+.logo-link,.studio-link,.mail {
+    color: var(--colorblue);
+}
+
+.logo-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.logo-link:hover {
+    color: yellowgreen;
+}
+
+.studio-link:hover {
+    color: yellowgreen;
+}
+
+.portfolio-link:hover{
+    color: yellowgreen;
+}
+
+.contacts-link:hover{
+    color: yellowgreen;
+}
+
+
+.logo-accent,.portfolio-link,.contacts-link {
+    color: var(--colorblack);
+}
+
+.tel {
+    color:#757575;
+}
+
+/*main*/
+
+    /*section title*/
+    .section-title {
+        background-color: #2F303A;
+        color: #FFFFFF;
+    }
+    .title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        }
+        /*button*/
+    .button-title {
+        width: 200px;
+        height: 50px;
+        background-color: var(--colorblue);
+        color: #FFFFFF;
+        border-radius: 4px;
+        }
+           
+    /*section advantage*/
+
+    .section-advantage {
+        background-color: #E5E5E5;
+    }
+
+    .advantage-title {        
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+    }
+    .advantage-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+
+    /*section doing*/
+
+    .section-doing {
+        background-color: #E5E5E5;
+        }
+
+    .doing-title,
+    .teams-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+        color: #212121;
+        text-align: center;
+        }
+
+   
+
+
+
+    /*teams*/
+
+    .teams {
+        background-color: #F5F4FA;
+    }
+
+
+    .team-user {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #212121;
+    }
+
+    .team-prof{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+
+    /*footer*/
+
+    .footer-adress {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+
+    .footer-info {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+.logo-accentfooter {
+    color: #FFFFFF;
+}
