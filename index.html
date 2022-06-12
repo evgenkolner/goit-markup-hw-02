@@ -4,33 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework01</title>
+    <title>Homework02</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans&family=Roboto:wght@400;500;700;900&display=swap"
+        hrf="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
 
-    <header>
-        <a href="./index.html" class="logo-link">Web <span class="logo-accent">studio</span></a>
-        <nav>
-            <ul>
-                <li> <a href="" class="studio-link">Студия</a></li>
-                <li> <a href="./portfolio.html" class="portfolio-link">Портфолио</a></li>
-                <li> <a href="" class="contacts-link" >Контакты</a></li>
+    <header class="header-content">
+        <a href="./index.html" class="logo-link">Web <span class="black-accent">studio</span></a>
+        <nav class="menu">
+            <ul class="menu-list">
+                <li class="menu-item"> <a href="" class="menu-link"><span class="blue-accent">Студия</span></a></li>
+                <li class="menu-item"> <a href="./portfolio.html" class="menu-link">Портфолио</a></li>
+                <li class="menu-item"> <a href="" class="menu-link">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <li> <a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
-            <li> <a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
+        <ul  class="header-contacts">
+            <li> <a href="mailto:info@devstudio.com" class="menu-link"><span class="blue-accent">info@devstudio.com</span></a></li>
+            <li> <a href="tel:+380961111111" class="menu-link"> <span class="color-tel">+38 096 111 11 11</span></a></li>
         </ul>
     </header>
 
-    <main>
+    <main class="content">
 
         <section class="section-title">
             <h1 class="title">Эффективные решения для вашего бизнеса</h1>
@@ -39,7 +40,7 @@
 
         <section class="section-advantage">
             <h2 hidden>Преимущества</h2>
-            <ul>
+            <ul class="advantage-list">
                 <li>
                     <h3 class="advantage-title">Внимание к деталям</h3>
                     <p class="advantage-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -61,7 +62,7 @@
 
         <section class="section-doing">
             <h2 class doing-title>Чем мы занимаемся</h2>
-            <ul>
+            <ul class="doing-list">
                 <li> <img src="/goit-markup-hw-01/img/photo1.jpg" alt="action1" width="370"></li>
                 <li> <img src="/goit-markup-hw-01/img/photo2.jpg" alt="action2" width="370"></li>
                 <li> <img src="/goit-markup-hw-01/img/photo3.jpg" alt="action3" width="370"></li>
@@ -70,7 +71,7 @@
 
         <section class="teams">
             <h2 class="teams-title">Наша команда</h2>
-            <ul>
+            <ul class="teams-list">
                 <li> 
                     <img src="/goit-markup-hw-01/img/pic1.jpg" alt="person1" width="270">
                     <h3 class="team-user">Игорь Демьяненко</h3>
@@ -95,7 +96,7 @@
         </section>
     </main>
 
-    <footer class="section-title">
+    <footer class="footer-container">
         <a href="./index.html" class="logo-link">Web <span class="logo-accentfooter">studio</span></a>
         <address>
             <ul>
