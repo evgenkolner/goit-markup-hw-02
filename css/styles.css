@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -38,11 +38,9 @@ ul {
     align-items: center;
 }
 
-.logo-link {
-    color: var(--colorblue);
-}
 
 .logo-link {
+    color: var(--colorblue);
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -51,6 +49,7 @@ ul {
     padding-top: 24px;
     padding-left: 215px;
     text-align: center;
+    text-decoration: none;
 }   
 
 .menu-list {
@@ -239,4 +238,8 @@ ul {
 
     .cursor {
         cursor: pointer;
+    }
+
+    .row {
+        display: flex;
     }
