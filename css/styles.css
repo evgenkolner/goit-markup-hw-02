@@ -16,16 +16,6 @@ body {
 
 /*header*/
 
-.header-content,.content {
-    width: 1600px;
-    margin: 0 auto;
-}
-
-.header-content {
-    display: flex;
-    align-items: center;
-}
-
 header {
     background-color: var(--colorwhite);
     font-size: 14px;
@@ -38,7 +28,15 @@ ul {
     list-style: none;
 }
 
+.header-content,.content {
+    width: 1600px;
+    margin: 0 auto;
+}
 
+.header-content {
+    display: flex;
+    align-items: center;
+}
 
 .logo-link {
     color: var(--colorblue);
@@ -52,6 +50,7 @@ ul {
     letter-spacing: 0.03em;
     padding-top: 24px;
     padding-left: 215px;
+    text-align: center;
 }   
 
 .menu-list {
