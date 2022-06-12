@@ -74,6 +74,16 @@ ul {
     text-decoration: none;
 }
 
+.menu-link :hover {
+    color: green;
+}
+
+
+.menu-link:focus {
+    color: red;
+}
+
+
 .black-accent {
     color: var(--colorblack);
 }
@@ -196,10 +206,26 @@ ul {
         color: var(--colorwhite);
     }
 
+    .footer-adress :hover {
+        color: green;
+    }
+
+    .footer-adress :focus {
+        color: red;
+    }
+
     .footer-info {
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
+    }
+
+    .footer-info :hover {
+        color: green;
+    }
+
+    .footer-info :focus {
+        color: red;
     }
 
     .logo-accentfooter {
@@ -210,4 +236,8 @@ ul {
 
     .filter {
         display: flex;
+    }
+
+    .cursor {
+        cursor: pointer;
     }
