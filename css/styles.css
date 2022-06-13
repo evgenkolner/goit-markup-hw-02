@@ -60,7 +60,7 @@ ul {
 }
 
 .current {
-    color: var(--colorblue);
+    color:var(--colorblue);
 }
 
 .menu-link {
@@ -76,7 +76,7 @@ ul {
 
 
 .menu-link:focus {
-    color: red;
+    color:var(--colorblue);
 }
 
 
@@ -226,7 +226,7 @@ ul {
     }
 
     .adress-info:focus {
-        color: red;
+        color:var(--colorblue);
     }
 
     .contacts-info {
@@ -241,7 +241,7 @@ ul {
     }
 
     .contacts-info:focus {
-        color: red;
+        color:var(--colorblue);
     }
 
     .logo-accentfooter {
