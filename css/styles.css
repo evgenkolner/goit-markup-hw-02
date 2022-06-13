@@ -12,6 +12,8 @@ body {
     font-size: 14px;
     background-color: var(--colorwhite);
     color: var(--colorblack);
+    width: 1600px;
+    margin: 0 auto;
 }
 
 /*header*/
@@ -57,13 +59,9 @@ ul {
 
 }
 
-
-/*.menu-item:first-child {
-    margin-right: 50px;
-    margin-left: 93px;
-   
-}*/
-
+.current {
+    color: var(--colorblue);
+}
 
 .menu-link {
     color: var(--colorblack);
@@ -73,7 +71,7 @@ ul {
 }
 
 .menu-link:hover {
-    color: green;
+    color: var(--colorblue);
 }
 
 
@@ -121,6 +119,15 @@ ul {
         height: 50px;
         background-color: var(--colorblue);
         color: var(--colorwhite);
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
         border-radius: 4px;
         }
            
@@ -198,8 +205,8 @@ ul {
     /*footer*/
 
     .footer-container {
-        width: 1600px;
-        margin: 0 auto;
+        /*width: 1600px;
+        margin: 0 auto;*/
         background-color: var(--colorblack);
     }
 
@@ -211,6 +218,7 @@ ul {
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--colorwhite);
+        text-decoration: none;
     }
 
     .adress-info:hover {
@@ -225,6 +233,7 @@ ul {
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
     }
 
     .contacts-info:hover {
@@ -247,8 +256,46 @@ ul {
 
     .cursor {
         cursor: pointer;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color:var(--colorblack);
+    }
+
+    .cursor:hover {
+        color: var(--coloryellowgreen)
+        background-color: var(--colorblue);
+    }
+
+    .cursor:focus {
+        color: var(--colorblue);
+        background-color: var(--colorblack)
     }
 
     .row {
         display: flex;
     }
+
+    .photo-cards {
+        width: 370px;
+        height: 294px;
+    }
+
+.type-work {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.direction {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}

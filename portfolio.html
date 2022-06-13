@@ -7,10 +7,6 @@
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./normalize.css">
@@ -21,100 +17,98 @@
         <a href="./index.html" class="logo-link">Web <span class="black-accent">studio</span></a>
         <nav class="menu">
             <ul class="menu-list">
-                <li class="menu-item"> <a href="./index.html" class="menu-link"><span class="blue-accent">Студия</span></a></li>
-                <li class="menu-item"> <a href="./portfolio.html" class="menu-link">Портфолио</a></li>
+                <li class="menu-item"> <a href="./index.html" class="menu-link">Студия</a></li>
+                <li class="menu-item"> <a href="./portfolio.html" class="menu-link,current">Портфолио</a></li>
                 <li class="menu-item"> <a href="" class="menu-link">Контакты</a></li>
             </ul>
         </nav>
         <ul class="header-contacts">
-            <li> <a href="mailto:info@devstudio.com" class="menu-link"><span
-                        class="blue-accent">info@devstudio.com</span></a></li>
+            <li> <a href="mailto:info@devstudio.com" class="menu-link">info@devstudio.com</a></li>
             <li> <a href="tel:+380961111111" class="menu-link"> <span class="color-tel">+38 096 111 11 11</span></a></li>
         </ul>
     </header>
 
-    <main class="content">
-        <h1 hidden>Фото</h1>
+    <main>
+        <section class="content">
 
-        <ul class="filter">
-            <li> <button class="cursor" type="button">Все</button> </li>
-            <li> <button class="cursor" type="button">Веб-сайты</button> </li>
-            <li> <button class="cursor" type="button">Приложения</button> </li>
-            <li> <button class="cursor" type="button">Дизайн</button> </li>
-            <li> <button class="cursor" type="button">Маркетинг</button> </li>
-        </ul>
-
-        <h2 hidden>Лучшие фото</h2>
-
-        <ul class="row">
-            <li>
-                <img src="../goit-markup-hw-02/img/portfolio1.jpg" alt="work1" width="270">
-                <h3 class="type-work">Технокряк</h3>
-                <p class="direction">Веб-сайт</p>
-            </li>
-            <li>
-                <img src="../goit-markup-hw-02/img/portfolio2.jpg" alt="work2" width="270">
-                <h3 class="type-work">Постер New Orlean vs Golden Star</h3>
-                <p class="direction">Дизайн</p>
-            </li>
-            <li>
-                <img src="../goit-markup-hw-02/img/portfolio3.jpg" alt="work3" width="270">
-                <h3 class="type-work">Ресторан Seafood</h3>
-                <p class="direction">Приложение</p>
-            </li>
-        </ul>
-
+            <h1 hidden>Фото</h1>
+            
+            <ul class="filter">
+                <li> <button class="cursor" type="button">Все</button> </li>
+                <li> <button class="cursor" type="button">Веб-сайты</button> </li>
+                <li> <button class="cursor" type="button">Приложения</button> </li>
+                <li> <button class="cursor" type="button">Дизайн</button> </li>
+                <li> <button class="cursor" type="button">Маркетинг</button> </li>
+            </ul>
+            
+            <ul class="row">
+                <li>
+                    <img class="photo-cards" src="../goit-markup-hw-02/img/portfolio1.jpg" alt="work1">
+                    <h2 class="type-work">Технокряк</h2>
+                    <p class="direction">Веб-сайт</p>
+                </li>
+                <li>
+                    <img class="photo-cards" src="../goit-markup-hw-02/img/portfolio2.jpg" alt="work2" width="370">
+                    <h2 class="type-work">Постер New Orlean vs Golden Star</h2>
+                    <p class="direction">Дизайн</p>
+                </li>
+                <li>
+                    <img class="photo-cards" src="../goit-markup-hw-02/img/portfolio3.jpg" alt="work3" width="370">
+                    <h2 class="type-work">Ресторан Seafood</h2>
+                    <p class="direction">Приложение</p>
+                </li>
+            </ul>
+            
+            
+            <ul class="row">
+                <li>
+                    <img class="photo-cards" src="../goit-markup-hw-02/img/portfolio4.jpg" alt="work4" width="370">
+                    <h2 class="type-work">Проект Prime</h2>
+                    <p class="direction">Маркетинг</p>
+                </li>
+                <li>
+                    <img class="photo-cards" src="../goit-markup-hw-02/img/portfolio5.jpg" alt="work5" width="370">
+                    <h2 class="type-work">Проект Boxes</h2>
+                    <p class="direction">Приложение</p>
+                </li>
+                <li>
+                    <img class="photo-cards" src="../goit-markup-hw-02/img/portfolio6.jpg" alt="work6" width="370">
+                    <h2 class="type-work">Inspiration has no Borders</h2>
+                    <p class="direction">Веб-сайт</p>
+                </li>
+            </ul>
+            
+            <ul class="row">
+                <li>
+                    <img class="photo-cards" src="../goit-markup-hw-02/img/portfolio7.jpg" alt="work7" width="370">
+                    <h2 class="type-work">Издание Limited Edition</h2>
+                    <p class="direction">Дизайн</p>
+                </li>
+                <li>
+                    <img class="photo-cards" src="../goit-markup-hw-02/img/portfolio8.jpg" alt="work8" width="370">
+                    <h2 class="type-work">Проект LAB</h2>
+                    <p class="direction">Маркетинг</p>
+                </li>
+                <li>
+                    <img class="photo-cards" src="../goit-markup-hw-02/img/portfolio9.jpg" alt="work1" width="370">
+                    <h2 class="type-work">Growing Business</h2>
+                    <p class="direction">Приложение</p>
+            </ul>
         
-        <ul class="row">   
-            <li>
-                <img src="../goit-markup-hw-02/img/portfolio4.jpg" alt="work4" width="270">
-                <h3 class="type-work">Проект Prime</h3>
-                <p class="direction">Маркетинг</p>
-            </li>
-            <li>
-                <img src="../goit-markup-hw-02/img/portfolio5.jpg" alt="work5" width="270">
-                <h3 class="type-work">Проект Boxes</h3>
-                <p class="direction">Приложение</p>
-            </li>
-            <li>
-                <img src="../goit-markup-hw-02/img/portfolio6.jpg" alt="work6" width="270">
-                <h3 class="type-work">Inspiration has no Borders</h3>
-                <p class="direction">Веб-сайт</p>
-            </li>
-        </ul>
-
-        <ul class="row">
-            <li>
-                <img src="../goit-markup-hw-02/img/portfolio7.jpg" alt="work7" width="270">
-                <h3 class="type-work">Издание Limited Edition</h3>
-                <p class="direction">Дизайн</p>
-            </li>
-            <li>
-                <img src="../goit-markup-hw-02/img/portfolio8.jpg" alt="work8" width="270">
-                <h3 class="type-work">Проект LAB</h3>
-                <p class="direction">Маркетинг</p>
-            </li>
-            <li>
-                <img src="../goit-markup-hw-02/img/portfolio9.jpg" alt="work1" width="270">
-                <h3 class="type-work">Growing Business</h3>
-                <p class="direction">Приложение</p>
-        </ul>
-
-
-        </ul>
-
+        </section>
+        
     </main>
         
     <footer class="footer-container">
         <a href="./index.html" class="logo-link">Web <span class="logo-accentfooter">studio</span></a>
-        <address>
+        <address class="adress">
             <ul>
-                <li> <a href="https://goo.gl/maps/L6YxNYiDUXCuWCLf7" target="_blank" rel="noreferrer noopener"
-                        class="footer-adress">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li> <a href="mailto:info@devstudio.com" class="footer-info">info@example.com</a></li>
-                <li> <a href="tel:+380961111111" class="footer-info">+38 099 111 11 11</a></li>
+                <li> <a href="https://goo.gl/maps/L6YxNYiDUXCuWCLf7" target="_blank" rel="noreferrer noopener" class="adress-info">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li> <a href="mailto:info@devstudio.com" class="contacts-info">info@example.com</a></li>
+                <li> <a href="tel:+380961111111" class="contacts-info">+38 099 111 11 11</a></li>
             </ul>
         </address>
     </footer>
+
 </body>
 </html>
