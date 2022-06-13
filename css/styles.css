@@ -72,7 +72,7 @@ ul {
     text-decoration: none;
 }
 
-.menu-link :hover {
+.menu-link:hover {
     color: green;
 }
 
@@ -103,15 +103,19 @@ ul {
     /*section title*/
     .section-title {
         background-color: #2F303A;
-        color: var(--colorwhite);
+        color: var(--colorwhite);   
     }
+
     .title {
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
         text-align: center;
         }
+
+
         /*button*/
+
     .button-title {
         width: 200px;
         height: 50px;
@@ -132,6 +136,7 @@ ul {
 
     .advantage-title {        
         font-weight: 700;
+        font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
@@ -198,31 +203,35 @@ ul {
         background-color: var(--colorblack);
     }
 
-    .footer-adress {
+    .adress {
+        font-style: normal;
+    }
+
+    .adress-info {
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--colorwhite);
     }
 
-    .footer-adress :hover {
-        color: green;
+    .adress-info:hover {
+        color: var(--colorblue);
     }
 
-    .footer-adress :focus {
+    .adress-info:focus {
         color: red;
     }
 
-    .footer-info {
+    .contacts-info {
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
     }
 
-    .footer-info :hover {
-        color: green;
+    .contacts-info:hover {
+        color: var(--colorblue);
     }
 
-    .footer-info :focus {
+    .contacts-info:focus {
         color: red;
     }
 
